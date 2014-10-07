@@ -3,6 +3,7 @@
 @import "./../../lib/bower_components/font-awesome/less/font-awesome.less";
 
 /* variables */
+@comey-color: #09347A;
 @fa-font-path:   "./../fonts";
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 a {
-	color:#09347A;
+	color:@comey-color;
 }
 
 h1 {
@@ -24,8 +25,12 @@ h1 {
 }
 
 h2{
-	margin:10px 0 25px;
-	font-weight: bold;
+	margin:10px 0 15px;
+//	font-weight: bold;
+}
+
+h3 {
+	margin:15px 0 25px;
 }
 
 .container {
@@ -33,15 +38,32 @@ h2{
 	margin-right: -15px;
 }
 
-.twitter {display: block; margin:0 auto; margin-bottom: 10px;}
-.twitter .twitter-follow-button {}
+
+.logo {display: block; margin:20px auto;}
+
+.card {
+	color:#333;
+	text-align: center;
+	padding:10px;
+//	background: rgba(9, 52, 122, 0.8);
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.btn .fa {margin-right:4px;}
+
+.card p {font-size:18px; line-height: 1.2;}
+
+.social-icons .fa {display:inline-block; margin:0 15px; color:#333;}
+.social-icons .fa:hover {color:@comey-color; text-decoration:none;}
+.social-icons {margin:15px 0 5px;}
+
 
 .btn-comey {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #09347A;
-  *background-color: #09347A;
-  background-image: linear-gradient(to bottom, #09347A, #072a62);
+  background-color: @comey-color;
+  *background-color: @comey-color;
+  background-image: linear-gradient(to bottom, @comey-color, #072a62);
   background-repeat: repeat-x;
   border-color: #072a62;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -53,27 +75,28 @@ h2{
 .btn-comey.disabled,
 .btn-comey[disabled] {
   color: #ffffff;
-  background-color: #09347A;
-  *background-color: #09347A;
+  background-color: @comey-color;
+  *background-color: @comey-color;
 }
 
 .btn-comey:active,
 .btn-comey.active {
-  background-color: #09347A \9;
+  background-color: @comey-color;
 }
 
 
 
 img.bg {
   /* Set rules to fill background */
-  min-height: 100%;
+  // min-height: 100%;
   min-width: 1024px;
+   min-width: 960px;
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
   /* Set up positioning */
   position: fixed;
-  top: 0;
+  top: -60px;
   left: 0;
 }
 
@@ -84,16 +107,6 @@ img.bg {
   }
 }
 
-.logo {display: block; margin:20px auto;}
-
-.card {
-	background:#09347A;
-	color:#333;
-	text-align: center;
-	padding:10px;
-	background: rgba(9, 52, 122, 0.8);
-	background: rgba(255, 255, 255, 0.9);
-}
 
 @media (min-width: 768px) {
 

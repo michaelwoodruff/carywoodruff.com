@@ -3103,6 +3103,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/public\/images\/background-large-cropped.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175697,
+		"inputAbbreviatedPath": "\/public\/images\/background-large-cropped.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/background-large-cropped.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/comey-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11309,
+		"inputAbbreviatedPath": "\/public\/images\/comey-logo.png",
+		"outputAbbreviatedPath": "\/public\/images\/comey-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -3124,7 +3146,7 @@
 		"outputAbbreviatedPath": "\/public\/carywoodruff.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
