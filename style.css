@@ -1,19 +1,14 @@
-// third-party
-@import "./../../lib/bower_components/bootstrap/less/bootstrap.less";
-@import "./../../lib/bower_components/font-awesome/less/font-awesome.less";
-
-/* variables */
-@comey-color: #09347A;
-@fa-font-path:   "./../fonts";
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+@@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
 
 body {
   background: #333;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
 a {
-	color:@comey-color;
+	color:#09347A;
 }
 
 h1 {
@@ -26,7 +21,6 @@ h1 {
 
 h2{
 	margin:10px 0 15px;
-//	font-weight: bold;
 }
 
 h3 {
@@ -45,7 +39,6 @@ h3 {
 	color:#333;
 	text-align: center;
 	padding:10px;
-//	background: rgba(9, 52, 122, 0.8);
 	background: rgba(255, 255, 255, 0.9);
 }
 
@@ -54,16 +47,16 @@ h3 {
 .card p {font-size:18px; line-height: 1.2;}
 
 .social-icons .fa {display:inline-block; margin:0 15px; color:#333;}
-.social-icons .fa:hover {color:@comey-color; text-decoration:none;}
+.social-icons .fa:hover {color:#09347A; text-decoration:none;}
 .social-icons {margin:15px 0 5px;}
 
 
 .btn-comey {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: @comey-color;
-  *background-color: @comey-color;
-  background-image: linear-gradient(to bottom, @comey-color, #072a62);
+  background-color: #09347A;
+  *background-color: #09347A;
+  background-image: linear-gradient(to bottom, #09347A, #072a62);
   background-repeat: repeat-x;
   border-color: #072a62;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -75,13 +68,13 @@ h3 {
 .btn-comey.disabled,
 .btn-comey[disabled] {
   color: #ffffff;
-  background-color: @comey-color;
-  *background-color: @comey-color;
+  background-color: #09347A;
+  *background-color: #09347A;
 }
 
 .btn-comey:active,
 .btn-comey.active {
-  background-color: @comey-color;
+  background-color: #09347A;
 }
 
 
@@ -113,7 +106,7 @@ img.bg {
 	.container {
 		margin:0 auto;
 	}
-	
+
 	h1 {
 		margin-top:20px;
 	}
@@ -124,11 +117,9 @@ img.bg {
 
 	.card {
 		margin-top:20px;
-		border-radius: 7px;	
-		box-shadow: 0 5px 8px rgba(0, 0, 0, 0.6),0 1px 0 rgba(255, 255, 255, 0.35) inset;	
+		border-radius: 7px;
+		box-shadow: 0 5px 8px rgba(0, 0, 0, 0.6),0 1px 0 rgba(255, 255, 255, 0.35) inset;
 	}
-	
+
 
 }
-
-
